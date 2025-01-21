@@ -77,19 +77,25 @@ The solution can be shared via .zip file or sharing a github repository url via 
 - **Bonus Points**: Does the candidate implement any of the bonus features or additional best practices?
 
 ### Improvements
-- Consider adding more robust error handling and logging.
-- Implement additional features such as caching or pagination if needed.
+- Consider adding more robust error handling and logging
+- Implement additional features such as caching or pagination if needed
 
 ### Setup
-1. Ensure you have Java 21 and Maven installed.
-2. Clone the repository.
-3. Run `mvn clean install` to build the project.
-4. Start the application with `mvn spring-boot:run`.
-
+1. Ensure you have Java 21 installed. Maven is not required as this project uses Maven Wrapper.
+2. Clone the repository:
+git clone <repository-url>
+cd <repository-directory>
+3.Build the project:
+3.1 Windows:
+ Run `mvn clean install` to build the project
+4. Start the application with Run
+` .\mvnw.cmd spring-boot:run`
 ### Running Tests
-- Use `mvn test` to run the unit tests.
+Run the tests with Maven Wrapper:
+Windows:
+- Use `.\mvnw.cmd test` to run the unit tests
 
 ### Known Issues
-- Describe any known issues or limitations here.
+- Describe any known issues or limitations here
 
 
