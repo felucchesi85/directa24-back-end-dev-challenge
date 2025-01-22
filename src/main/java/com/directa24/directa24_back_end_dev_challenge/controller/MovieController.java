@@ -26,8 +26,6 @@ public class MovieController {
     public MovieController(MovieService movieService){
         this.movieService = movieService;
     }
-
-    private static final Logger logger = LoggerFactory.getLogger(MovieController.class);
     
     @GetMapping("/directors")
     public ResponseEntity<DirectorsResponseDto> getDirectors(@RequestParam @Min(1) int threshold) {
